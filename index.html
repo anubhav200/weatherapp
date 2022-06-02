@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apllication Form</title>
+</head>
+<body>
+    <h1>Application</h1>
+    <form action="">
+        First Name: <input type="text" placeholder="Enter First Name" required /> &nbsp;&nbsp;&nbsp;
+        Middle Name: <input type="text" placeholder="Enter Middle Name" /> &nbsp;&nbsp;&nbsp;
+        Last Name: <input type="text" placeholder="Enter Last Name" required/> <br><br>
+        <fieldset required > 
+        <legend> Gender</legend>
+        <input type="radio" value="Male" name="gender" >Male  &nbsp;&nbsp;&nbsp;
+        <input type="radio" value="Female" name="gender" >Female  &nbsp;&nbsp;&nbsp;
+        <input type="radio" value="Other" name="gender" >Other
+        </fieldset>
+        <br>
+        <br>
+        Nationality: 
+        <select name="Nationality" required > 
+            <option value="">Select any one</option>
+            <option value="India">India</option>
+            <option value="Australia">Australia</option>
+            <option value="Russia">Russia</option>
+            <option value="Nepal">Nepal</option>                        
+        </select> &nbsp;&nbsp;&nbsp;
+        Date of Birth: <input type="date" required>
+        <br> <br>
+        Email: <input type="email" placeholder="Enter your email address" required>   &nbsp;&nbsp;&nbsp;
+        Mobile: <input type="number" placeholder="Enter your mobile number" required> <br> <br>
+        <input type="submit" value="Sumit"> &nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
